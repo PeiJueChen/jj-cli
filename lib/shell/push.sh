@@ -15,4 +15,4 @@ git add .
 echo "commit message: $1" 
 git commit -m "$1"
 git push origin "$branch"
-echo -e "\033[46;30m push success \033[0m"
+echo -e "\033[46;30m push done \033[0m"
