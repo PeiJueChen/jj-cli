@@ -29,9 +29,9 @@ git commit -m "$1"
 git push "$depository" "$branch"
 echo -e "\033[46;30m push done \033[0m"
 
-if [ "$?" -eq "0" ]
-then
-  echo -e "\033[46;30m push success \033[0m"
-else
-  echo -e "\033[46;30m push failed \033[0m"
-fi 
+# if [ "$?" -eq "0" ]
+# then
+#   echo -e "\033[46;30m push success \033[0m"
+# else
+#   echo -e "\033[46;30m push failed \033[0m"
+# fi 
