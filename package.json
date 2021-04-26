@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.1",
     "commander": "^7.2.0",
-    "open": "^8.0.6"
+    "open": "^8.0.6",
+    "ora": "^5.4.0"
   }
 }
