@@ -1,7 +1,7 @@
 {
   "name": "jj-cli",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.3",
+  "description": "A Tool CLI",
   "main": "index.js",
   "bin": {
     "jj": "index.js"
@@ -9,7 +9,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PeiJueChen/jj-cli.git"
+  },
+  "keywords": [
+    "tool",
+    "jj",
+    "git tool"
+  ],
+  "author": "Jason Chan",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
