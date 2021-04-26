@@ -22,7 +22,7 @@ git fetch "$depository"
 
 git pull "$depository" "$branch"
 
-echo -e "\033[46;30m Exec Done \033[0m"
+echo -e "\033[46;30m exec Done \033[0m"
 
 # if [ "$?" -eq "0" ]
 # then

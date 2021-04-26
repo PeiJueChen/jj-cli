@@ -27,7 +27,8 @@ echo -e "\033[46;30m loading... \033[0m"
 git add .
 git commit -m "$1"
 git push "$depository" "$branch"
-echo -e "\033[46;30m push done \033[0m"
+echo -e "\033[46;30m exec done \033[0m"
+
 
 # if [ "$?" -eq "0" ]
 # then
