@@ -22,7 +22,7 @@ if [ -z "$2" ]; then
     fi
 fi
 echo -e "\033[46;30m Your depository is: $depository \033[0m"
-echo -e "\033[46;30m ----------------------------------------------- \033[0m"
+echo -e "\033[30;43m ----------------------------------------------- \033[0m"
 echo -e "\033[46;30m loading... \033[0m"
 
 git fetch "$depository"
