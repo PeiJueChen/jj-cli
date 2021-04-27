@@ -1,17 +1,18 @@
 {
   "name": "jj-cli",
   "version": "0.0.7",
-  "description": "A Tool CLI",
+  "description": "A TOOL CLI",
   "main": "index.js",
   "bin": {
-    "jj": "index.js"
+    "jj": "index.js",
+    "j": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:PeiJueChen/jj-cli.git"
+    "url": "https://github.com/PeiJueChen/jj-cli"
   },
   "keywords": [
     "tool",

@@ -4,14 +4,14 @@ A Tool CLI
 ## install
 
 ```ruby
-    npm i jj-cli
+    npm i jj-cli -g
 ```
 
 ## usage git 
 
 ```ruby
-    jj -h (help)
-    jj gpush <messgae> -b [branch] -d [depository]
+    j -h (help)
+    j gpush <messgae> -b [branch] -d [depository]
 
-    jj gpull -b [branch] -d [depository]
+    j gpull -b [branch] -d [depository]
 ```

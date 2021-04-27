@@ -35,6 +35,11 @@ fi
 echo "git push tag"
 git push $depository $version
 
+echo -e "\033[46;30m push tag done \033[0m"
+
+echo -e "\033[30;43m ----------------------------------------------- \033[0m"
+
+echo -e "\033[46;30m begin publish... \033[0m"
 npm publish
 
 echo -e "\033[46;30m exec done \033[0m"
