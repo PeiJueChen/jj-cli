@@ -20,9 +20,17 @@ echo -e "\033[46;30m Your branch is: $branch \033[0m"
 
 depository=$3
 if [ -z "$3" ]; then
-    depository="origin"
+    d="$(git remote -v)"
+    depository=($(echo $d | tr ',' ' '))
+    echo -e "Found depository: "$depository""
+    if [ -z $depository ]; then
+        echo -e "\033[36;1m Not match depository \033[0m"
+        depository="origin"
+    fi
 fi
+
 echo -e "\033[46;30m Your depository is: $depository \033[0m"
+echo -e "\033[46;30m ----------------------------------------------- \033[0m"
 echo -e "\033[46;30m loading... \033[0m"
 git add .
 git commit -m "$1"
