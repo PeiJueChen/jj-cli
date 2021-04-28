@@ -1,11 +1,14 @@
 {
   "name": "jj-cli",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "A TOOL CLI",
-  "main": "index.js",
+  "main": "j.js",
   "bin": {
-    "jj": "index.js",
-    "j": "index.js"
+    "jj": "j.js",
+    "j": "j.js"
+  },
+  "engines": {
+    "node": ">=10.18.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +27,9 @@
   "dependencies": {
     "chalk": "^4.1.1",
     "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
     "open": "^8.0.6",
-    "ora": "^5.4.0"
+    "ora": "^5.4.0",
+    "semver": "^7.3.5"
   }
 }

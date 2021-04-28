@@ -1,20 +1,33 @@
-#!/usr/bin/env node
 
 const program = require('commander');
 
 const helpOpitons = require('./lib/core/help');
-const { createCommands } = require('./lib/core/creators/createGit');
-const { optionGit } = require('./lib/core/options/optionGit');
+const { createGit } = require('./lib/core/git/createGit');
+const { optionGit } = require('./lib/core/git/optionGit');
+const { createOpen } = require('./lib/core/open/createOpen');
+const { optionOpen } = require('./lib/core/open/optionOpen');
 
-program.version(require('./package.json').version);
-program.version(require('./package.json').version, '-v --version');
+process.on('unhandledRejection', error => {
+    const chalk = require('chalk');
+    console.error(chalk.red('[fatal]'), chalk.bold.blue(error));
+});
+
+// cliBinDir: __dirname
+const run = (process, currentWorkingDir, cliBinDir) => {
+    // console.log("JJ ~ file: index.js ~ line 16 ~ run ~ currentWorkingDir", currentWorkingDir, cliBinDir);
+    program.version(require('./package.json').version);
+    program.version(require('./package.json').version, '-v --version');
+
+    helpOpitons();
+    optionGit();
+    optionOpen()
 
 
-helpOpitons();
-optionGit();
 
+    createGit(process, currentWorkingDir, cliBinDir);
+    createOpen(process, currentWorkingDir, cliBinDir);
 
+    program.parse(process.argv);
+}
 
-createCommands();
-
-program.parse(process.argv);
+module.exports = run;
