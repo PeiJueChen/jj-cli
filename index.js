@@ -28,6 +28,11 @@ const run = (process, currentWorkingDir, cliBinDir) => {
     createOpen(process, currentWorkingDir, cliBinDir);
 
     program.parse(process.argv);
+
+    // if (program.args.length < 2) {
+    //     console.log(`\n  ${'⚡️'}  ${chalk_1.default.bold('Capacitor - Cross-Platform apps with JavaScript and the Web')}  ${'⚡️'}`);
+    //     program.help();
+    // }
 }
 
 module.exports = run;
