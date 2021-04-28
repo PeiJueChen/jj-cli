@@ -16,5 +16,3 @@ if (!semver.satisfies(currentNodeVersion, requiresNodeVersion)) {
 
 const run = require('./index');
 run(process, process.cwd(), __dirname);
-// var cli = require('../dist/index');
-// cli.run(process, __dirname);
