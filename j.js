@@ -8,6 +8,8 @@ const packageJson = require('./package.json');
 const currentNodeVersion = process.version.replace('v', '');
 const requiresNodeVersion = packageJson.engines.node;
 
+process.title = "jj-cli";
+
 if (!semver.satisfies(currentNodeVersion, requiresNodeVersion)) {
     const chalk = require('chalk');
     console.error(chalk.red(`ERROR: JJ CLI requires Node ${requiresNodeVersion}`));
