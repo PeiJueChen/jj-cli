@@ -33,4 +33,5 @@ fi
 echo -e "\033[46;30m Your depository is: $depository \033[0m"
 
 echo -e "\033[30;43m git push tag... \033[0m"
+git tag $version
 git push $depository $version
