@@ -12,8 +12,8 @@
 ```ruby
     j -h (help)
     j gpush <messgae> -b [branch] -d [depository]
-
     j gpull -b [branch] -d [depository]
+    j gtag [tagName] -d [depository]
 ```
 
 ## Usage open ios/platform
