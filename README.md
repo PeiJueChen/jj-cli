@@ -32,8 +32,8 @@
 
 ```ruby
 
-    j upload android -n <appcenter release notes>
-    j upload ios -n <appcenter release notes>
+    j upload android -n <appcenter release notes> -path xxxx
+    j upload ios -n <appcenter release notes> -path xxxx
     j appcenter login
     j appcentet logout
     
