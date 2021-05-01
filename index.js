@@ -5,7 +5,9 @@ const helpOpitons = require('./lib/core/help');
 const { createGit } = require('./lib/core/git/createGit');
 const { optionGit } = require('./lib/core/git/optionGit');
 const { createOpen } = require('./lib/core/open/createOpen');
+const { createUpload } = require('./lib/core/upload/create');
 const { optionOpen } = require('./lib/core/open/optionOpen');
+const { optionUpload } = require('./lib/core/upload/option');
 
 process.on('unhandledRejection', error => {
     const chalk = require('chalk');
@@ -20,12 +22,14 @@ const run = (process, currentWorkingDir, cliBinDir) => {
 
     helpOpitons();
     optionGit();
-    optionOpen()
+    optionOpen();
+    optionUpload();
 
 
 
     createGit(process, currentWorkingDir, cliBinDir);
     createOpen(process, currentWorkingDir, cliBinDir);
+    createUpload(process, currentWorkingDir, cliBinDir);
 
     program.parse(process.argv);
 

@@ -25,3 +25,16 @@
     j open android
     
 ```
+
+## Usage upload ios/platform
+* for: cordova app / capacitor app
+* Before using, make sure that there is .apk/.ipa under the ios/android folder , Or set your apppath:  --apppath: xxxxx(./)
+
+```ruby
+
+    j upload android -n <appcenter release notes>
+    j upload ios -n <appcenter release notes>
+    j appcenter login
+    j appcentet logout
+    
+```
