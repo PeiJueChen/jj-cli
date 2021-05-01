@@ -17,7 +17,7 @@
 ```
 
 ## Usage open ios/platform
-* for: cordova app / capacitor app
+* For: cordova app / capacitor app
 
 ```ruby
 
@@ -26,9 +26,9 @@
     
 ```
 
-## Usage upload ios/platform
-* for: cordova app / capacitor app
-* Before using, make sure that there is .apk/.ipa under the ios/android folder , Or set your apppath:  --apppath: xxxxx(./)
+## Usage upload ios/platform to appcenter
+* For: cordova app / capacitor app
+* Before using, make sure that there is .apk/.ipa under the ios/android folder , Or set your apppath:  `--apppath: xxxxx(./)`
 
 ```ruby
 
