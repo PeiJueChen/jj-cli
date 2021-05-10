@@ -6,8 +6,10 @@ const { createGit } = require('./lib/core/git/createGit');
 const { optionGit } = require('./lib/core/git/optionGit');
 const { createOpen } = require('./lib/core/open/createOpen');
 const { createUpload } = require('./lib/core/upload/create');
+const { createCreate } = require('./lib/core/create/create');
 const { optionOpen } = require('./lib/core/open/optionOpen');
 const { optionUpload } = require('./lib/core/upload/option');
+const { optionCreate } = require('./lib/core/create/option');
 
 process.on('unhandledRejection', error => {
     const chalk = require('chalk');
@@ -24,12 +26,14 @@ const run = (process, currentWorkingDir, cliBinDir) => {
     optionGit();
     optionOpen();
     optionUpload();
+    optionCreate();
 
 
 
     createGit(process, currentWorkingDir, cliBinDir);
     createOpen(process, currentWorkingDir, cliBinDir);
     createUpload(process, currentWorkingDir, cliBinDir);
+    createCreate(process, currentWorkingDir, cliBinDir);
 
     program.parse(process.argv);
 
