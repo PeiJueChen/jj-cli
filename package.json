@@ -1,6 +1,6 @@
 {
   "name": "jj-cli",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A TOOL CLI",
   "main": "j.js",
   "bin": {
@@ -24,10 +24,14 @@
     "j",
     "git tool",
     "cordova tool",
-    "capacitor tool"
+    "capacitor tool",
+    "open ios",
+    "open android",
+    "appcenter",
+    "appcenter upload"
   ],
   "author": "Jason Chan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
     "commander": "^7.2.0",
