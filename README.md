@@ -38,3 +38,13 @@
     j appcentet logout
     
 ```
+
+## Usage template
+* node
+* -fp / --folderpath: Set your folder path.
+  
+```ruby
+
+    j create node 
+    j create node -fp xxxxxx
+```
