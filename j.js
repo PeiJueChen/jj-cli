@@ -15,19 +15,19 @@ if (!semver.satisfies(currentNodeVersion, requiresNodeVersion)) {
     process.exit(1);
 }
 
-
-const run = require('./index');
-run(process, process.cwd(), __dirname);
-
-
-const args = process.argv.slice(2);
 // version notifier
+const args = process.argv.slice(2);
 if (args.indexOf("--quiet") === -1) {
     const updateNotifier = require("update-notifier");
     // eslint-disable-next-line security/detect-non-literal-require
     const notifier = updateNotifier({ pkg: packageJson });
     notifier.notify();
 }
+
+
+const run = require('./index');
+run(process, process.cwd(), __dirname);
+
 
 
 
