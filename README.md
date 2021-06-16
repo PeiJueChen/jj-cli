@@ -41,10 +41,14 @@
 
 ## Usage template
 * node
+* python xxx(project name)
+* -pn : Set your project name
 * -fp / --folderpath: Set your folder path.
   
 ```ruby
 
     j create node 
     j create node -fp xxxxxx
+    j create python xxxx(project name)
+    j create python xxxx -fp xxxxxx
 ```
