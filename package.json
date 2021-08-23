@@ -1,6 +1,6 @@
 {
   "name": "jj-cli",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "A TOOL CLI",
   "main": "j.js",
   "bin": {
@@ -13,7 +13,7 @@
   "debug": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildraw": "gulp buildraw"
+    "build": "gulp buildraw"
   },
   "repository": {
     "type": "git",
