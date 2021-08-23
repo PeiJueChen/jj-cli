@@ -1,0 +1,1 @@
+"use strict";const t=require("commander"),o=()=>{t.option("-host --host <host>","[string] specify hostname"),t.option("-port --port <port>","[number] specify port"),t.option("-staticFolderName --staticFolderName <staticFolderName>",'Set your staticFolderName, default is "dist"')};module.exports=o;

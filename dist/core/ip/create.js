@@ -1,0 +1,1 @@
+"use strict";const e=require("../../untils/logs"),o=require("commander"),r=(r,s,t)=>{o.command("ip").description("Get the IP address of your pc/mac").action((()=>{e.logIpAddress()}))};module.exports=r;

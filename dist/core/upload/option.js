@@ -1,0 +1,1 @@
+"use strict";const e=require("commander"),p=()=>{e.option("-n --notes <notes>","Appcenter release notes"),e.option("-path --apppath <apppath>","Set your app path, make sure find the ipa/apk file ")};module.exports=p;

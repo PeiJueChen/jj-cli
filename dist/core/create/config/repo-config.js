@@ -1,0 +1,1 @@
+"use strict";const t="direct:https://github.com/PeiJueChen/node-website-template.git",e="direct:https://gitee.com/jason_2019/python-scrapy-template.git";module.exports={nodeRepo:t,pythonRepo:e};

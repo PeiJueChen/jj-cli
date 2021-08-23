@@ -1,0 +1,1 @@
+"use strict";const o=require("commander"),{preview:t}=require("./action"),e=(e,r,s)=>{const i=o.opts()||{};o.command("preview [-host|--host] [-port|--port]").description("opens the native project workspace (xcode for iOS), platform: ios/android").action((()=>{t(e,r,i.host||"localhost",i.port||5e3,i.staticFolderName||"dist")}))};module.exports=e;

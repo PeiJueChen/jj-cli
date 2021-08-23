@@ -1,0 +1,1 @@
+"use strict";const o=require("commander"),e=require("chalk"),n=()=>{o.option("-j --jj","A TOOL CLI. Provide Some Quick Ways "),o.arguments("<command>").action((n=>{o.outputHelp(),console.log("  "+e.red(`\n  Unknown command: ${e.yellow(n)}`)),console.log()})),o.on("--help",(function(){}))};module.exports=n;

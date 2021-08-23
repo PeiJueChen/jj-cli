@@ -1,6 +1,6 @@
 {
   "name": "jj-cli",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A TOOL CLI",
   "main": "j.js",
   "bin": {
@@ -10,13 +10,24 @@
   "engines": {
     "node": ">=10.3.0"
   },
+  "debug": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildraw": "gulp buildraw"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PeiJueChen/jj-cli.git"
   },
+  "files": [
+    "package-lock.json",
+    "package.json",
+    "j.js",
+    "index.js",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "homepage": "https://github.com/PeiJueChen/jj-cli",
   "keywords": [
     "tool",
@@ -45,5 +56,13 @@
     "sirv": "^1.0.14",
     "update-notifier": "^5.1.0",
     "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-terser": "^2.0.1"
   }
 }

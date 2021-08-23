@@ -1,0 +1,1 @@
+"use strict";const o={node:"node",python:"python"};module.exports=o;

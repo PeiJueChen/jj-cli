@@ -1,7 +1,9 @@
 
 const program = require('commander');
 
-const loadCommand = require('./lib/core');
+// const loadCommand = require('./lib/core');
+// const loadCommand = require('./dist/core');
+
 process.on('unhandledRejection', error => {
     const chalk = require('chalk');
     console.error(chalk.red('[fatal]'), chalk.bold.blue(error));
@@ -11,7 +13,7 @@ process.on('unhandledRejection', error => {
 const run = (process, currentWorkingDir, cliBinDir) => {
     program.version(require('./package.json').version);
     program.version(require('./package.json').version, '-v --version');
-
+    const loadCommand = require('./package.json').debug ? require('./lib/core') : require('./dist/core');
     loadCommand(process, currentWorkingDir, cliBinDir);
 
     program.parse(process.argv);

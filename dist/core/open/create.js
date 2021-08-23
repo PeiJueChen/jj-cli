@@ -1,0 +1,1 @@
+"use strict";const o=require("commander"),{openPlatform:t}=require("./actionOpen"),r=(r,e,a)=>{const i=o.opts()||{};o.command("open [platform] [-p|--platform] [-studio|--androidStudioPath]").description("opens the native project workspace (xcode for iOS), platform: ios/android").action((o=>{t(o||i.platform,e,a,i.androidStudioPath)}))};module.exports=r;
