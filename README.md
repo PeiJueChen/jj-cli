@@ -52,3 +52,25 @@
     j create python xxxx(project name)
     j create python xxxx -fp xxxxxx
 ```
+
+## Usage preview 
+* Help you run a local service 
+* j preview 
+* -host:                default is localhost
+* -port:                default is 5000
+* -staticFolderName:    default is dist 
+
+```ruby
+
+    j preview
+    j preview -host 192.168.3.2
+    j preview -port 5888
+```
+
+## Usage ip
+* Get the IP address of your pc/mac
+
+```ruby
+
+    j ip
+``` 
