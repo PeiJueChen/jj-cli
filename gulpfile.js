@@ -26,6 +26,7 @@ const jsTask = () => {
                 ]
             ]
         }))
+        // .pipe(terser({mangle: {toplevel: true}, ie8: true, safari10: true}))
         .pipe(terser({mangle: {toplevel: true}}))
         .pipe(dest("./dist"))
 }
