@@ -1,1 +1,1 @@
-"use strict";const e=require("commander"),o=()=>{e.option("-m --message <message>","Commit message"),e.option("-b --branch <branch>","Set your branch; Default is 'current'"),e.option("-d --depository <depository>","Set your depository, Default is: orgin")};module.exports=o;
+"use strict";const e=require("commander"),o=()=>{e.option("-m --message <message>","Commit message"),e.option("-b --branch <branch>","Set your branch; Default is 'current'"),e.option("-d --depository <depository>","Set your depository, Default is: origin")};module.exports=o;
