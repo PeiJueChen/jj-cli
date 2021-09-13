@@ -27,11 +27,15 @@ const jsTask = () => {
             ]
         }))
         // .pipe(terser({mangle: {toplevel: true}, ie8: true, safari10: true}))
-        .pipe(terser({mangle: {toplevel: true}}))
+        .pipe(terser({ mangle: { toplevel: true } }))
         .pipe(dest("./dist"))
 }
 
-const buildraw = series(clean, jsTask);
+const copyAssets = () => {
+    return src("./lib/**/*.html").pipe(dest('./dist'))
+}
+
+const buildraw = series(clean, jsTask, copyAssets);
 
 module.exports = {
     buildraw
