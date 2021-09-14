@@ -1,4 +1,5 @@
 ## update log
+* 0.8.1  -- add chokidar
 * 0.8.0  -- preview, use faye-websocket
 * 0.7.0  -- preview, use live-server, support changed files auto refresh browser.
 * 0.6.2  -- fixed: get ip, flatmap

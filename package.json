@@ -1,6 +1,6 @@
 {
   "name": "jj-cli",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "A TOOL CLI",
   "main": "j.js",
   "bin": {
@@ -40,12 +40,14 @@
     "open ios",
     "open android",
     "appcenter",
-    "appcenter upload"
+    "appcenter upload",
+    "preview"
   ],
   "author": "Jason Chan",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
+    "chokidar": "^3.5.2",
     "commander": "^7.2.0",
     "connect": "^3.7.0",
     "download-git-repo": "^3.0.2",
