@@ -1,1 +1,1 @@
-"use strict";const o={ios:"ios",android:"android"};module.exports=o;
+"use strict";const o={ios:"ios",android:"android"},d={android:"android"};module.exports=o,module.exports=d;

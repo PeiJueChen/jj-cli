@@ -74,3 +74,27 @@
 
     j ip
 ``` 
+
+## Usage sign
+* Help you sign android apk; platform: android(default)
+* Please write your config file at current directory
+
+```
+{
+    "unsignedApk": "./app-release-unsigned.apk",
+    "defaultAlias": "key0",
+    "projects": [
+        {
+            "project": "xxxx",
+            "keyStoreFile": "xxxx/bkapp.jks",
+            "storepass": "pwd",
+            "keypass": "pwd",
+            "alias": "key0"
+        }
+    ]
+}
+```
+
+```ruby
+run: j sign
+```

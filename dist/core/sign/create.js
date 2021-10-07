@@ -1,0 +1,1 @@
+"use strict";const o=require("commander"),{signPlatform:r}=require("./action"),t=(t,a,i)=>{const n=o.opts()||{};o.command("sign [platform] [-p|--platform]").description("Help you sign android apk; platform: android(default) ").action((o=>{r(o||n.platform||"android",a,i)}))};module.exports=t;

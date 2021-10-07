@@ -1,1 +1,1 @@
-"use strict";const o=require("commander"),t=()=>{o.option("-p --platform <platform>","What platform do you want to open / upload ?"),o.option("-studio --androidStudioPath <androidStudioPath>","Set your androidStudioPath")};module.exports=t;
+"use strict";const o=require("commander"),t=()=>{o.option("-p --platform <platform>","What platform do you want to open / upload / sign ?"),o.option("-studio --androidStudioPath <androidStudioPath>","Set your androidStudioPath")};module.exports=t;
