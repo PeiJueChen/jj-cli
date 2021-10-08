@@ -1,4 +1,5 @@
 ## update log
+* 0.9.4  -- j sign: add window default path for config.path
 * 0.9.3  -- j sign: zipalign -> jarsigner
 * 0.9.2  -- j sign: add param: projectname
 * 0.9.1  -- j sign: add default config path
