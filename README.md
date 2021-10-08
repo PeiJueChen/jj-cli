@@ -96,5 +96,7 @@
 ```
 
 ```ruby
-run: j sign
+j sign
+j sign -pn xxx(your project, find from projects in config )
+j sign -fp xxxxx(your signature configuration folder path, must have sign.config.json, jks...)
 ```

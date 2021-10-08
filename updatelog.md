@@ -1,4 +1,5 @@
 ## update log
+* 0.9.6  -- j sign: add -fp: your signature configuration folder path
 * 0.9.5  -- j sign: fixed: find unsignapk in the current folder, use default config to sign 
 * 0.9.4  -- j sign: add window default path for config.path
 * 0.9.3  -- j sign: zipalign -> jarsigner
