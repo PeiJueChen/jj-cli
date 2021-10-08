@@ -1,4 +1,5 @@
 ## update log
+* 0.9.2  -- j sign: add param: projectname
 * 0.9.1  -- j sign: add default config path
 * 0.9.0  -- j sign: Help you sign android apk
 * 0.8.2  -- j upload: add size
