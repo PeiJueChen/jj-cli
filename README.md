@@ -36,6 +36,7 @@
     j upload ios -n <appcenter release notes> -path xxxx
     j appcenter login
     j appcentet logout
+    * Contains reading parameters from jj.config.json to upload 
     
 ```
 
@@ -98,5 +99,6 @@
 ```ruby
 j sign
 j sign -pn xxx(your project, find from projects in config )
-j sign -fp xxxxx(your signature configuration folder path, must have sign.config.json, jks...)
+j sign -fp xxxxx(your signature configuration folder path, must have jj.config.json, jks...)
+j sign -appcenter xxx(prd/uat: Specify the uat/prd you. configured in jj.config.json )
 ```

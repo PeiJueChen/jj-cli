@@ -1,4 +1,5 @@
 ## update log
+* 0.9.8  -- j sign / j upload : enhanced, you can read parameters from jj.config.json and upload
 * 0.9.7  -- j sign: switch to prod
 * 0.9.6  -- j sign: add -fp: your signature configuration folder path
 * 0.9.5  -- j sign: fixed: find unsignapk in the current folder, use default config to sign 

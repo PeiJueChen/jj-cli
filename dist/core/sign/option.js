@@ -1,1 +1,1 @@
-"use strict";const e=require("commander"),r=()=>{};module.exports=r;
+"use strict";const e=require("commander"),p=()=>{e.option("-appcenter --appcenter <appcenter>","To upload to appcenter, specify uat/prd (configured in sign.config)")};module.exports=p;
