@@ -1,4 +1,5 @@
 ## update log
+* 0.9.11  -- j sign: find apk at current directory
 * 0.9.10  -- j open: fixed
 * 0.9.9  -- j sign: fix platform 
 * 0.9.8  -- j sign / j upload : enhanced, you can read parameters from jj.config.json and upload
