@@ -1,4 +1,5 @@
 # jj-cli
+
 > A Tool CLI
 
 ## Install
@@ -17,6 +18,7 @@
 ```
 
 ## Usage open ios/platform
+
 * For: cordova app / capacitor app
 
 ```ruby
@@ -27,8 +29,9 @@
 ```
 
 ## Usage upload ios/platform to appcenter
+
 * For: cordova app / capacitor app
-* Before using, make sure that there is .apk/.ipa under the ios/android folder , Or set your apppath:  `--apppath: xxxxx(./)`
+* Before using, make sure that there is .apk/.ipa under the ios/android folder , Or set your apppath: `--apppath: xxxxx(./)`
 
 ```ruby
 
@@ -41,11 +44,13 @@
 ```
 
 ## Usage template
+
 * node
 * python xxx(project name)
 * -pn : Set your project name
 * -fp / --folderpath: Set your folder path.
   
+
 ```ruby
 
     j create node 
@@ -55,6 +60,7 @@
 ```
 
 ## Usage preview 
+
 * Help you run a local service 
 * j preview 
 * -host:                default is localhost
@@ -69,30 +75,61 @@
 ```
 
 ## Usage ip
+
 * Get the IP address of your pc/mac
 
 ```ruby
 
     j ip
-``` 
+```
 
 ## Usage sign
+
 * Help you sign android apk; platform: android(default)
 * Please write your config file at current directory
 
-```
+```json
 {
+
     "unsignedApk": "./app-release-unsigned.apk",
     "defaultAlias": "key0",
+    "defaultAppcenterToken": "xxxx",
     "projects": [
         {
-            "project": "xxxx",
+            "name": "xxxx",
             "keyStoreFile": "xxxx/bkapp.jks",
             "storepass": "pwd",
             "keypass": "pwd",
-            "alias": "key0"
+            "alias": "key0",
+            "appcenter": {
+                "android": {
+                    "prd": {
+                        "userName": "xxx",
+                        "appName": "xxxx",
+                        "group": "xxx"
+                    },
+                    "uat": {
+                        "userName": "xxx",
+                        "appName": "xxxx",
+                        "group": "xxx"
+                    }
+                },
+                "ios": {
+                    "prd": {
+                       "userName": "xxx",
+                        "appName": "xxxx",
+                        "group": "xxx"
+                    },
+                    "uat": {
+                        "userName": "xxx",
+                        "appName": "xxxx",
+                        "group": "xxx"
+                    }
+                }
+            }
         }
     ]
+
 }
 ```
 

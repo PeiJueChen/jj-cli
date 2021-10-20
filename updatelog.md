@@ -1,4 +1,5 @@
 ## update log
+* 0.9.12  -- j sign: fix, find apk at current directory
 * 0.9.11  -- j sign: find apk at current directory
 * 0.9.10  -- j open: fixed
 * 0.9.9  -- j sign: fix platform 
@@ -10,7 +11,7 @@
 * 0.9.3  -- j sign: zipalign -> jarsigner
 * 0.9.2  -- j sign: add param: projectname
 * 0.9.1  -- j sign: add default config path
-* 0.9.0  -- j sign: Help you sign android apk
+* 0.9.0  -- j sign: help you sign android apk
 * 0.8.2  -- j upload: add size
 * 0.8.1  -- add chokidar
 * 0.8.0  -- preview, use faye-websocket

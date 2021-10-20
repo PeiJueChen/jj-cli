@@ -1,6 +1,6 @@
 {
   "name": "jj-cli",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "description": "A TOOL CLI",
   "main": "j.js",
   "bin": {
@@ -40,7 +40,8 @@
     "open android",
     "appcenter",
     "appcenter upload",
-    "preview"
+    "preview",
+    "sign android"
   ],
   "author": "Jason Chan",
   "license": "MIT",
