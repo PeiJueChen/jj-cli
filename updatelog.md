@@ -1,4 +1,5 @@
 ## update log
+* 0.9.15  -- add prepare shell
 * 0.9.14  -- j sign: some logs
 * 0.9.13  -- j sign: output log
 * 0.9.12  -- j sign: fix, find apk at current directory
