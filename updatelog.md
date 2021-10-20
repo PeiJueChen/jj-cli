@@ -1,4 +1,5 @@
 ## update log
+* 0.9.13  -- j sign: output log
 * 0.9.12  -- j sign: fix, find apk at current directory
 * 0.9.11  -- j sign: find apk at current directory
 * 0.9.10  -- j open: fixed
