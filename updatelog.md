@@ -1,4 +1,5 @@
 ## update log
+* 0.9.16  -- j sign: support v1 & v2
 * 0.9.15  -- add prepare shell
 * 0.9.14  -- j sign: some logs
 * 0.9.13  -- j sign: output log
