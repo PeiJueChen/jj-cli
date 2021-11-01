@@ -1,4 +1,5 @@
 ## update log
+* 0.10.0  -- j upload: upload to pgy , new webiste.
 * 0.9.17  -- j sign: is install apksigner
 * 0.9.16  -- j sign: support v1 & v2
 * 0.9.15  -- add prepare shell

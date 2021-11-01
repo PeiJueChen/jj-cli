@@ -126,6 +126,19 @@
                         "group": "xxx"
                     }
                 }
+            },
+            "pgyer": {
+                "apiKey": "xxx",
+                "userKey": "xxx",
+                "buildPassword": "xxxx",
+                "android": {
+                    "appKey": "xxxxx",
+                    "description": "for test"
+                },
+                "ios": {
+                    "appKey": "xxxx",
+                    "description": "for test"
+                }
             }
         }
     ]
