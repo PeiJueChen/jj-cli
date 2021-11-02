@@ -1,4 +1,5 @@
 ## update log
+* 0.10.4  -- j sign & upload: fix, upload to pgy, in windows
 * 0.10.3  -- j sign & upload: fix, upload to pgy, in windows
 * 0.10.2  -- j sign & upload: fix, upload to pgy, in windows
 * 0.10.1  -- j sign & upload: upload to pgy after signed.
