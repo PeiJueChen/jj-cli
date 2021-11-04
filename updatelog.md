@@ -1,4 +1,5 @@
 ## update log
+* 0.10.7  -- j upload: updated the time of file to edit's time
 * 0.10.7  -- j sign & upload: fix, upload to pgy, in windows
 * 0.10.6  -- j sign & upload: fix, upload to pgy, in windows
 * 0.10.5  -- j sign & upload: fix, upload to pgy, in windows
