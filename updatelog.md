@@ -1,4 +1,5 @@
 ## update log
+* 0.11.1  -- j zip: small fixed
 * 0.11.0  -- j zip: Help you zip file or folder
 * 0.10.8  -- j upload: updated the time of file to edit's time
 * 0.10.7  -- j sign & upload: fix, upload to pgy, in windows
