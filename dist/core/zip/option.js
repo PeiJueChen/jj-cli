@@ -1,0 +1,1 @@
+"use strict";const t=require("commander"),x=()=>{t.option("-output --output <output>","The name of the output file , default is:  build-xxxx-xx-xx-xxxxxx.zip")};module.exports=x;

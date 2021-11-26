@@ -152,3 +152,10 @@ j sign -pn xxx(your project, find from projects in config )
 j sign -fp xxxxx(your signature configuration folder path, must have jj.config.json, jks...)
 j sign -appcenter xxx(prd/uat: Specify the uat/prd you. configured in jj.config.json )
 ```
+
+## Usage zip
+* Help you zip file or folder
+
+```ruby
+j zip -output xxx.zip file file folder...
+```
