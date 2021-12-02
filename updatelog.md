@@ -1,4 +1,5 @@
 ## update log
+* 0.11.2  -- j zip: small fixed, use writeZip 
 * 0.11.1  -- j zip: small fixed
 * 0.11.0  -- j zip: help you zip file or folder
 * 0.10.8  -- j upload: updated the time of file to edit's time
