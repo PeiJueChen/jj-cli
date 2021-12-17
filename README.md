@@ -25,7 +25,7 @@
 
     j open ios
     j open android
-    
+    j openpath xxxx  // open your folder
 ```
 
 ## Usage upload ios/platform to appcenter
