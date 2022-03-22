@@ -1,0 +1,1 @@
+"use strict";const e=require("commander"),{applink:p}=require("./action"),t=(t,o,r)=>{e.opts();e.command("applink [platform]").description("get your app link at appcenter").action((e=>{p(e,o)}))};module.exports=t;

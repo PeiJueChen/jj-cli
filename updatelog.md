@@ -1,4 +1,5 @@
 ## update log
+* 0.13.0  -- j applink [platform] : get app link on appcenter
 * 0.12.2  -- update ansi-regex to 5.0.1
 * 0.12.1  -- fixed:  python create error: ProjectName is not defined
 * 0.12.0  -- j openpath xxxx , open folder
