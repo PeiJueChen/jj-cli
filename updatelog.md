@@ -1,4 +1,5 @@
 ## update log
+* 0.14.2  -- test token
 * 0.14.1  -- for node 10, small...
 * 0.14.0  -- j push / pull / tag
 * 0.13.0  -- j applink [platform] : get app link on appcenter
