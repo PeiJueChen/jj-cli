@@ -1,4 +1,5 @@
 ## update log
+* 0.14.3  -- j upload android (support .aab)
 * 0.14.2  -- test token
 * 0.14.1  -- for node 10, small...
 * 0.14.0  -- j push / pull / tag
