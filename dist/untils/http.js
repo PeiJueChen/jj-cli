@@ -1,0 +1,1 @@
+"use strict";const e=require("https"),t=async()=>new Promise(((t,s)=>{e.get("https://aigensstoretest.aigens.com/api/v1/store/config.json?type=app&storeId=5704131641606144",(e=>{let o="";e.on("data",(e=>{o+=e})),e.on("end",(()=>{try{const e=JSON.parse(o);t(e)}catch(e){s(e)}}))})).on("error",(e=>{s(e)}))}));module.exports={getDeviceConfig:t};

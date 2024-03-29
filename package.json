@@ -1,11 +1,12 @@
 {
   "name": "jj-cli",
-  "version": "0.14.4",
+  "version": "0.15.0",
   "description": "A TOOL CLI",
   "main": "j.js",
   "bin": {
     "jj": "j.js",
-    "j": "j.js"
+    "j": "j.js",
+    "ai": "j.js"
   },
   "engines": {
     "node": ">=10.1.0"
