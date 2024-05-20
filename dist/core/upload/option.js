@@ -1,1 +1,1 @@
-"use strict";const e=require("commander"),p=()=>{e.option("-n --notes <notes>","Appcenter release notes"),e.option("-path --apppath <apppath>","Set your app path, make sure find the ipa/apk file ")};module.exports=p;
+"use strict";const e=require("commander"),o=()=>{e.option("-n --notes <notes>","Appcenter release notes"),e.option("-path --apppath <apppath>","Set your app path, make sure find the ipa/apk file "),e.option("-closedfolder --closedfolder <closedfolder>","Whether to close the link & open the folder after the upload is completed")};module.exports=o;

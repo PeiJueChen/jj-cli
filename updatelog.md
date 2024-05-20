@@ -1,4 +1,5 @@
 ## update log
+* 0.15.1  -- feat: support closedfolder
 * 0.15.0  -- feat: support device config
 * 0.14.4  -- fixed: j upload android (support .aab)
 * 0.14.3  -- j upload android (support .aab)
