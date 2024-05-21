@@ -20,6 +20,8 @@ else
     echo "using old version " $version
 fi
 
+sh build.sh
+
 echo "tagging " $version
 
 git tag $version

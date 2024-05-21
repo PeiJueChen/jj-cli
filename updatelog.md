@@ -1,4 +1,5 @@
 ## update log
+* 0.15.3  -- feat: support closedfolder
 * 0.15.2  -- feat: support closedfolder
 * 0.15.1  -- feat: support closedfolder
 * 0.15.0  -- feat: support device config
