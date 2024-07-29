@@ -1,4 +1,5 @@
 ## update log
+* 0.15.4  -- feat: api
 * 0.15.3  -- feat: support closedfolder
 * 0.15.2  -- feat: support closedfolder
 * 0.15.1  -- feat: support closedfolder
