@@ -1,4 +1,5 @@
 ## update log
+* 1.0.1  -- fix pgyer
 * 1.0.0  -- support pgyer
 * 0.15.4  -- feat: api
 * 0.15.3  -- feat: support closedfolder
