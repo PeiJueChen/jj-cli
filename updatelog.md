@@ -1,4 +1,5 @@
 ## update log
+* 1.0.3  -- applink support appcenter and pgyer
 * 1.0.2  -- fix pgyer
 * 1.0.1  -- fix pgyer
 * 1.0.0  -- support pgyer
