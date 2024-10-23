@@ -1,4 +1,5 @@
 ## update log
+* 1.0.6  -- show size for pgyer
 * 1.0.5  -- test
 * 1.0.4  -- fix pgyer
 * 1.0.3  -- applink support appcenter and pgyer
