@@ -1,5 +1,7 @@
 {
-  "test": 1,
-  "token": "fsef",
-  "email": "fsef"
+  "access_token": "1000.0b557d724ba48a44aa8f689b808e4d92.8f311034e79c33817e79d35bf0db986c",
+  "scope": "ZohoCliq.Channels.CREATE ZohoCliq.Channels.READ ZohoCliq.Channels.UPDATE ZohoCliq.Channels.DELETE ZohoCliq.Bots.CREATE ZohoCliq.Bots.READ ZohoCliq.Bots.UPDATE ZohoCliq.Bots.DELETE ZohoCliq.Chats.CREATE ZohoCliq.Chats.READ ZohoCliq.Chats.UPDATE ZohoCliq.Chats.DELETE ZohoCliq.Buddies.CREATE ZohoCliq.Buddies.READ ZohoCliq.Buddies.UPDATE ZohoCliq.Buddies.DELETE ZohoCliq.Messages.READ ZohoCliq.Attachments.READ ZohoCliq.Webhooks.CREATE",
+  "api_domain": "https://www.zohoapis.com",
+  "token_type": "Bearer",
+  "expires_in": 3600
 }
