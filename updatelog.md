@@ -1,4 +1,5 @@
 ## update log
+* 1.1.2  -- cliq
 * 1.1.1  -- cliq
 * 1.1.0  -- cliq
 * 1.0.6  -- show size for pgyer
