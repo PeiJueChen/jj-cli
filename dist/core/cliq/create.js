@@ -1,0 +1,1 @@
+"use strict";const i=require("commander"),{cliq:e}=require("./action"),o=(o,t,c)=>{const n=i.opts()||{};i.command("cliq [-e|--email] [-t|--token]").description("cliq").action((i=>{e({currentWorkingDir:t,cliBinDir:c,email:n.email,token:n.token})}))};module.exports=o;

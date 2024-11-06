@@ -1,0 +1,1 @@
+"use strict";const e=require("commander"),o=()=>{e.option("-e --email <email>","cliq, email "),e.option("-t --token <token>","cliq, token ")};module.exports=o;
