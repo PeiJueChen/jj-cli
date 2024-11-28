@@ -1,4 +1,5 @@
 ## update log
+* 1.1.6  -- new pgyer link
 * 1.1.5  -- new pgyer link
 * 1.1.4  -- added: flat method
 * 1.1.3  -- cliq
