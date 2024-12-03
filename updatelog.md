@@ -1,4 +1,5 @@
 ## update log
+* 1.1.9  -- fix: payer upload
 * 1.1.8  -- fix: payer upload
 * 1.1.7  -- new pgyer link
 * 1.1.6  -- new pgyer link
