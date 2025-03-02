@@ -1,4 +1,6 @@
 ## update log
+* 1.1.13  -- feat: add version's info to desc for pgyer
+* 1.1.12  -- feat: add version's info to desc for pgyer
 * 1.1.11  -- fix: payer upload
 * 1.1.10  -- fix: payer upload
 * 1.1.9  -- fix: payer upload
