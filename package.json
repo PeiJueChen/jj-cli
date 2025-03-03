@@ -1,6 +1,6 @@
 {
   "name": "jj-cli",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "A TOOL CLI",
   "main": "j.js",
   "bin": {
