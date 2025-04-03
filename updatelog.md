@@ -1,4 +1,5 @@
 ## update log
+* 1.1.16  -- feat: add git clear
 * 1.1.15  -- fix: j pull, only pull current branch
 * 1.1.14  -- fix: upload app by local
 * 1.1.13  -- feat: add version's info to desc for pgyer
